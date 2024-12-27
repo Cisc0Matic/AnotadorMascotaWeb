@@ -6,10 +6,10 @@ import NavBar from "./navegacion/NavBar";
 function App() {
   return (
     <BrowserRouter>
-    <NavBar />
+      <NavBar />
       <Routes>
-        <Route path="/" element={<div className="container text-center" style={{margin : "30px"}}>
-OLA SOY HOMELO CHINO
+        <Route path="/" element={<div className="container text-center" style={{ margin: "30px" }}>
+          ¡Bienvenido!
         </div>} />
         <Route path="/home" element={<ListadoMascotas />} />
         <Route path="/agregar" element={<AgregarMascota />} />
